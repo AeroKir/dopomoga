@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="../assets/img/dopomoga-logo.jpg" alt="">
+    <!-- <img src="../assets/img/dopomoga-logo.jpg" alt=""> -->
   </div>
 </template>
 
