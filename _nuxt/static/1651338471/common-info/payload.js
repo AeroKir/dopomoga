@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/common-info", {data:[{}],fetch:{},mutations:void 0});
