@@ -50,6 +50,33 @@ export default {
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    [
+      '@nuxtjs/i18n',
+      { 
+        langDir: 'lang/',
+        defaultLocale: 'uk',
+        locales: [
+          {
+            code: 'uk',
+            iso: 'uk-Uk',
+            file: 'uk-UK.json',
+            name: 'Українська'
+          },
+          {
+            code: 'en',
+            iso: 'en-US',
+            file: 'en-US.json',
+            name: 'English'
+          },
+          {
+            code: 'ru',
+            iso: 'ru-RU',
+            file: 'ru-RU.json',
+            name: 'Русский'
+          },
+        ]  
+      }
+    ]
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
