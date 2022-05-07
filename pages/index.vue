@@ -1,7 +1,7 @@
 <template>
   <v-row justify="center" align="center">
     <v-col cols="12" sm="8" md="6">
-      <h1>The Main page</h1>
+      <h1>{{ $t('pages.main.title') }}</h1>
     </v-col>
   </v-row>
 </template>
