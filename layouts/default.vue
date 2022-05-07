@@ -37,6 +37,7 @@
       </v-btn> -->
       <v-toolbar-title v-text="title" />
       <img src="../assets/img/dopomoga-logo.jpg" alt="Site logo" height="auto" width="60">
+      <LangSwitcher />
       <v-spacer />
     </v-app-bar>
     <v-main>
@@ -51,8 +52,13 @@
 </template>
 
 <script>
+import LangSwitcher from '../components/LangSwitcher';
+
 export default {
   name: 'DefaultLayout',
+  components: {
+    LangSwitcher,
+  },
   data() {
     return {
       clipped: false,
