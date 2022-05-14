@@ -37,7 +37,10 @@
       </v-btn> -->
       <v-toolbar-title v-text="title" />
       <img src="../assets/img/dopomoga-logo.jpg" alt="Site logo" height="auto" width="60">
-      <LangSwitcher />
+      <LangSwitcher
+        :locales="availableLocales"
+        :defaultLocale="defaultLang"
+      />
       <v-spacer />
     </v-app-bar>
     <v-main>
@@ -91,5 +94,13 @@ export default {
       this.drawer = !this.drawer;
     },
   },
+  computed: {
+    defaultLang() {
+      return this.$i18n.locale;
+    },
+    availableLocales () {
+      return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale);
+    }
+  }
 }
 </script>
