@@ -51,7 +51,7 @@
                     
                 </v-card>
                 <v-card color="#E3F2FD">
-                    <nuxt-link to="/medical-assistance">
+                    <nuxt-link to="/legal-assistance">
                         <v-card-title class="d-flex flex-column">
                             <v-icon
                                 x-large
