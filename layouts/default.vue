@@ -70,37 +70,37 @@ export default {
       fixed: false,
       items: [
         {
-          icon: 'mdi-apps',
+          icon: 'mdi-home',
           title: 'Home',
           to: '/',
         },
         {
-          icon: 'mdi-chart-bubble',
+          icon: 'mdi-card-account-details',
           title: 'Migrant reference',
           to: '/migrant-reference',
         },
         {
-          icon: 'mdi-chart-bubble',
+          icon: 'mdi-account-cash',
           title: 'Financial assistance',
           to: '/financial-assistance',
         },
         {
-          icon: 'mdi-chart-bubble',
+          icon: 'mdi-medical-bag',
           title: 'Medical assistance',
           to: '/medical-assistance',
         },
         {
-          icon: 'mdi-chart-bubble',
+          icon: 'mdi-scale-balance',
           title: 'Legal assistance',
           to: '/legal-assistance',
         },
         {
-          icon: 'mdi-chart-bubble',
+          icon: 'mdi-newspaper-variant',
           title: 'News',
           to: '/news',
         },
         {
-          icon: 'mdi-chart-bubble',
+          icon: 'mdi-close-octagon',
           title: 'Stop fake',
           to: '/stop-fake',
         },
