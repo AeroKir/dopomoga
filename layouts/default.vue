@@ -76,24 +76,39 @@ export default {
         },
         {
           icon: 'mdi-chart-bubble',
-          title: 'Common info',
-          to: '/common-info',
+          title: 'Migrant reference',
+          to: '/migrant-reference',
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Financial assistance',
+          to: '/financial-assistance',
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Medical assistance',
+          to: '/medical-assistance',
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Legal assistance',
+          to: '/legal-assistance',
         },
         {
           icon: 'mdi-chart-bubble',
           title: 'News',
           to: '/news',
         },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Stop fake',
+          to: '/stop-fake',
+        },
       ],
       miniVariant: false,
       right: true,
       title: 'Dopomoga',
     }
-  },
-  methods: {
-    switchDrawer() {
-      this.drawer = !this.drawer;
-    },
   },
   computed: {
     defaultLang() {
@@ -102,6 +117,11 @@ export default {
     availableLocales () {
       return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale);
     }
-  }
+  },
+  methods: {
+    switchDrawer() {
+      this.drawer = !this.drawer;
+    },
+  },
 }
 </script>

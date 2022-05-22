@@ -9,16 +9,13 @@
         </v-card-title>
       </v-card>
       <v-card>
-        <v-card-title>Отримати медичну допомогу</v-card-title>
-      </v-card>
-      <v-card>
         <v-card-title>Отримати грошову допомогу</v-card-title>
       </v-card>
       <v-card>
-        <v-card-title>Безкоштовна правова допомога</v-card-title>
+        <v-card-title>Отримати медичну допомогу</v-card-title>
       </v-card>
       <v-card>
-        <v-card-title>Житло</v-card-title>
+        <v-card-title>Безкоштовна правова допомога</v-card-title>
       </v-card>
     </v-col>
   </v-row>

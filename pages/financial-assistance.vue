@@ -1,13 +1,13 @@
 <template>
   <v-row>
     <v-col class="text-center">
-      Common info
+      Get financial Assistance
     </v-col>
   </v-row>
 </template>
 
 <script>
   export default {
-    name: 'CommonInfoPage',
+    name: 'FinancialAssistancePage',
   }
 </script>
