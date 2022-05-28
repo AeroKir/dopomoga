@@ -37,7 +37,7 @@
         <v-icon>mdi-minus</v-icon>
       </v-btn> -->
       <v-toolbar-title v-text="title" />
-      <img src="../assets/img/dopomoga-logo.jpg" alt="Site logo" height="auto" width="60">
+      <img src="../assets/img/dopomoga-logo-transparent.png" alt="Site logo" height="auto" width="60">
       <LangSwitcher
         :locales="availableLocales"
         :defaultLocale="defaultLang"
