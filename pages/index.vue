@@ -5,13 +5,13 @@
         <p>{{ $t('pages.main.heroParagraph', {siteName: 'Dopomoga'}) }}</p>
         <v-row>
             <v-col cols="6">
-                <v-card color="#E3F2FD">
-                    <nuxt-link to="/migrant-reference">
+                <v-card color="#008bf8" class="mb-5">
+                    <nuxt-link to="/migrant-reference" class="card-link">
                         <v-card-title class="d-flex flex-column">
                             <v-icon
                                 x-large
                                 left
-                                color="#0D47A1"
+                                color="#ffffff"
                             >
                                 mdi-card-account-details
                             </v-icon>
@@ -19,13 +19,13 @@
                         </v-card-title>
                     </nuxt-link>
                 </v-card>
-                <v-card color="#E3F2FD">
-                    <nuxt-link to="/financial-assistance">
+                <v-card color="#008bf8">
+                    <nuxt-link to="/financial-assistance" class="card-link">
                         <v-card-title class="d-flex flex-column">
                             <v-icon
                                 x-large
                                 left
-                                color="#0D47A1"
+                                color="#ffffff"
                             >
                                 mdi-account-cash
                             </v-icon>
@@ -35,13 +35,13 @@
                 </v-card>
             </v-col>
             <v-col cols="6">
-                <v-card color="#E3F2FD">
-                    <nuxt-link to="/medical-assistance">
+                <v-card color="#008bf8" class="mb-5">
+                    <nuxt-link to="/medical-assistance" class="card-link">
                         <v-card-title class="d-flex flex-column">
                             <v-icon
                                 x-large
                                 left
-                                color="#0D47A1"
+                                color="#ffffff"
                             >
                                 mdi-medical-bag
                             </v-icon>
@@ -50,13 +50,13 @@
                     </nuxt-link>
                     
                 </v-card>
-                <v-card color="#E3F2FD">
-                    <nuxt-link to="/legal-assistance">
+                <v-card color="#008bf8">
+                    <nuxt-link to="/legal-assistance" class="card-link">
                         <v-card-title class="d-flex flex-column">
                             <v-icon
                                 x-large
                                 left
-                                color="#0D47A1"
+                                color="#ffffff"
                             >
                                 mdi-scale-balance
                             </v-icon>
@@ -75,3 +75,10 @@ export default {
   name: 'IndexPage',
 }
 </script>
+
+<style lang="scss" scoped>
+    .card-link {
+        color: #000036;
+        text-decoration: none;
+    }
+</style>
