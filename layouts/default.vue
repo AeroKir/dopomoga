@@ -2,6 +2,7 @@
   <v-app light>
     <v-navigation-drawer
       v-model="drawer"
+      right
       :mini-variant="miniVariant"
       :clipped="clipped"
       fixed
@@ -25,24 +26,34 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-    <v-app-bar :clipped-left="clipped" fixed app color="#fed82f">
-      <v-app-bar-nav-icon @click.stop="switchDrawer" />
-      <!-- <v-btn icon @click.stop="miniVariant = !miniVariant">
-        <v-icon>mdi-{{ `chevron-${miniVariant ? 'right' : 'left'}` }}</v-icon>
-      </v-btn>
-      <v-btn icon @click.stop="clipped = !clipped">
-        <v-icon>mdi-application</v-icon>
-      </v-btn>
-      <v-btn icon @click.stop="fixed = !fixed">
-        <v-icon>mdi-minus</v-icon>
-      </v-btn> -->
-      <v-toolbar-title v-text="title" />
-      <img src="../assets/img/dopomoga-logo-transparent.png" alt="Site logo" height="auto" width="60">
-      <LangSwitcher
-        :locales="availableLocales"
-        :defaultLocale="defaultLang"
-      />
-      <v-spacer />
+    <v-app-bar :clipped-left="clipped" fixed app color="#fed82f" class="justify-space-between">
+      <v-row align="center">
+        <v-col cols="12">
+          <v-row align="center">
+            <v-col cols="6">
+              <nuxt-link to="/" class="d-flex align-center main-title">
+                <img
+                  src="../assets/img/dopomoga-logo-transparent.png"
+                  alt="Dopomoga site logo"
+                  height="auto"
+                  width="60"
+                  class="mr-2"
+                >
+                <h1 class="text-subtitle-1 font-weight-bold">ДОПОМОГА</h1>
+              </nuxt-link>
+            </v-col>
+            <v-col cols="4">
+              <LangSwitcher
+                :locales="availableLocales"
+                :defaultLocale="defaultLang"
+              />
+            </v-col>
+            <v-col cols="2">
+              <v-app-bar-nav-icon @click.stop="switchDrawer" />
+            </v-col>
+          </v-row>
+        </v-col>
+      </v-row>
     </v-app-bar>
     <v-main>
       <v-container>
@@ -107,7 +118,6 @@ export default {
       ],
       miniVariant: false,
       right: true,
-      title: 'Dopomoga',
     }
   },
   computed: {
@@ -125,3 +135,11 @@ export default {
   },
 }
 </script>
+
+<style lang="scss" scoped>
+  .main-title {
+    color: #0461ab;
+    font-weight: 700;
+    text-decoration: none;
+  }
+</style>
