@@ -78,7 +78,7 @@ export default {
 
 <style lang="scss" scoped>
     .card-link {
-        color: #000036;
+        color:#0462ab;
         text-decoration: none;
     }
 </style>
