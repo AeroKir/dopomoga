@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/ru/common-info", {data:[{}],fetch:{},mutations:void 0});

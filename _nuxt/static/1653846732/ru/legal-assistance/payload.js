@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ru/legal-assistance", {data:[{}],fetch:{},mutations:void 0});

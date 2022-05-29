@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ru/stop-fake", {data:[{}],fetch:{},mutations:void 0});

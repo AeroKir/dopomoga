@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ru/medical-assistance", {data:[{}],fetch:{},mutations:void 0});
