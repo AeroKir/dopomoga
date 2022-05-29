@@ -44,7 +44,7 @@
         },
         methods: {
             linkHandler(option) {
-                this.activeLang = option.name;
+                this.activeLang = option.code.charAt(0).toUpperCase() + option.code.slice(1);
                 this.open = false;
                 this.$router.push(this.switchLocalePath(option.code));
             },
