@@ -15,7 +15,7 @@
                             >
                                 mdi-card-account-details
                             </v-icon>
-                            Отримати довідку переселенця
+                            {{ $t('pages.main.actionCards.getMigrantReference') }}
                         </v-card-title>
                     </nuxt-link>
                 </v-card>
@@ -29,7 +29,7 @@
                             >
                                 mdi-account-cash
                             </v-icon>
-                            Отримати грошову допомогу
+                            {{ $t('pages.main.actionCards.getFinancialAssistance') }}
                         </v-card-title>
                     </nuxt-link>
                 </v-card>
@@ -45,7 +45,7 @@
                             >
                                 mdi-medical-bag
                             </v-icon>
-                            Отримати медичну допомогу
+                            {{ $t('pages.main.actionCards.getMedicalAssistance') }}
                         </v-card-title>
                     </nuxt-link>
                     
@@ -60,7 +60,7 @@
                             >
                                 mdi-scale-balance
                             </v-icon>
-                            Безкоштовна правова допомога
+                            {{ $t('pages.main.actionCards.getLegalAssistance') }}
                         </v-card-title>
                     </nuxt-link>
                 </v-card>
