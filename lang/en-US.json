@@ -4,5 +4,14 @@
             "title": "Main",
             "heroParagraph": "{siteName} is an online platform for internally displaced persons (IDPs), which aims to provide the necessary information support to internally displaced persons in Ukraine."
         }
+    },
+    "asideMenu": {
+        "homepage": "Homepage",
+        "migrantReference": "Migrant reference",
+        "financialAssistance": "Financial assistance",
+        "medicalAssistance": "Medical assistance",
+        "legalAssistance": "Legal assistance",
+        "news": "News",
+        "stopFake": "Stop fake"
     }
 }

@@ -21,7 +21,7 @@
             <v-icon>{{ item.icon }}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
-            <v-list-item-title v-text="item.title" />
+            <v-list-item-title v-text="$t(item.title)" />
           </v-list-item-content>
         </v-list-item>
       </v-list>
@@ -82,37 +82,37 @@ export default {
       items: [
         {
           icon: 'mdi-home',
-          title: 'Home',
+          title: 'asideMenu.homepage',
           to: '/',
         },
         {
           icon: 'mdi-card-account-details',
-          title: 'Migrant reference',
+          title: 'asideMenu.migrantReference',
           to: '/migrant-reference',
         },
         {
           icon: 'mdi-account-cash',
-          title: 'Financial assistance',
+          title: 'asideMenu.financialAssistance',
           to: '/financial-assistance',
         },
         {
           icon: 'mdi-medical-bag',
-          title: 'Medical assistance',
+          title: 'asideMenu.medicalAssistance',
           to: '/medical-assistance',
         },
         {
           icon: 'mdi-scale-balance',
-          title: 'Legal assistance',
+          title: 'asideMenu.legalAssistance',
           to: '/legal-assistance',
         },
         {
           icon: 'mdi-newspaper-variant',
-          title: 'News',
+          title: 'asideMenu.news',
           to: '/news',
         },
         {
           icon: 'mdi-close-octagon',
-          title: 'Stop fake',
+          title: 'asideMenu.stopFake',
           to: '/stop-fake',
         },
       ],
