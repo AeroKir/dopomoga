@@ -1,8 +1,8 @@
 <template>
   <v-row>
-    <v-col cols="2" class="text-center">
+    <v-col cols="2">
       <nuxt-link to="/" style="text-decoration: none">
-        <v-icon x-large color="#0461ab">mdi-arrow-left-circle-outline</v-icon>
+        <v-icon large color="#0461ab">mdi-arrow-left</v-icon>
       </nuxt-link>
     </v-col>
     <v-col cols="8" class="text-center">
@@ -11,7 +11,7 @@
     <v-col cols="12" class="text-center">
       <h1>Get financial Assistance</h1>
     </v-col>
-    <v-col cols="12">
+    <v-col cols="11">
       <p>
         Наразі, внаслідок агресивного і повномасштабного вторгнення Росії в Україну, склалася вкрай складна ситуація у нашій державі і майже 10 млн. наших співвітчизників є внутрішньо переміщеними особами і знаходяться в скрутному становищі.
 На порталі ДОПОМОГА, Ви маєте змогу знайти необхідну інформацію про янаявні програми підтримки від держави Україна а також від міжнародних партнерів.
