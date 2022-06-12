@@ -12,6 +12,19 @@
       <h1>Get financial Assistance</h1>
     </v-col>
     <v-col cols="11">
+      <v-expansion-panels>
+        <v-expansion-panel
+          v-for="(item,i) in 5"
+          :key="i"
+        >
+          <v-expansion-panel-header>
+            Item
+          </v-expansion-panel-header>
+          <v-expansion-panel-content>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </v-expansion-panel-content>
+        </v-expansion-panel>
+      </v-expansion-panels>
       <p>
         Наразі, внаслідок агресивного і повномасштабного вторгнення Росії в Україну, склалася вкрай складна ситуація у нашій державі і майже 10 млн. наших співвітчизників є внутрішньо переміщеними особами і знаходяться в скрутному становищі.
 На порталі ДОПОМОГА, Ви маєте змогу знайти необхідну інформацію про янаявні програми підтримки від держави Україна а також від міжнародних партнерів.
