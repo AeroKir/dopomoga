@@ -3,6 +3,8 @@
     <v-navigation-drawer
       v-model="drawer"
       right
+      absolute
+      temporary
       :mini-variant="miniVariant"
       :clipped="clipped"
       fixed
@@ -27,33 +29,35 @@
       </v-list>
     </v-navigation-drawer>
     <v-app-bar :clipped-left="clipped" fixed app color="#fed82f" class="justify-space-between">
-      <v-row align="center">
-        <v-col cols="12">
-          <v-row align="center">
-            <v-col cols="6">
-              <nuxt-link to="/" class="d-flex align-center main-title">
-                <img
-                  src="../assets/img/dopomoga-logo-transparent.png"
-                  alt="Dopomoga site logo"
-                  height="auto"
-                  width="60"
-                  class="mr-2"
-                >
-                <h1 class="text-subtitle-1 font-weight-bold">ДОПОМОГА</h1>
-              </nuxt-link>
-            </v-col>
-            <v-col cols="4">
-              <LangSwitcher
-                :locales="availableLocales"
-                :defaultLocale="defaultLang"
-              />
-            </v-col>
-            <v-col cols="2">
-              <v-app-bar-nav-icon @click.stop="switchDrawer" />
-            </v-col>
-          </v-row>
-        </v-col>
-      </v-row>
+      <v-container fluid>
+        <v-row align="center">
+          <v-col cols="12">
+            <v-row align="center">
+              <v-col cols="6">
+                <nuxt-link to="/" class="d-flex align-center main-title">
+                  <img
+                    src="../assets/img/dopomoga-logo-mini.png"
+                    alt="Dopomoga site logo"
+                    height="auto"
+                    width="60"
+                    class="mr-2"
+                  >
+                  <h1 class="text-subtitle-1 font-weight-bold">ДОПОМОГА</h1>
+                </nuxt-link>
+              </v-col>
+              <v-col cols="4">
+                <LangSwitcher
+                  :locales="availableLocales"
+                  :defaultLocale="defaultLang"
+                />
+              </v-col>
+              <v-col cols="2">
+                <v-app-bar-nav-icon @click.stop="switchDrawer" />
+              </v-col>
+            </v-row>
+          </v-col>
+        </v-row>
+      </v-container> 
     </v-app-bar>
     <v-main>
       <v-container>
