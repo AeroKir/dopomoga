@@ -3,7 +3,6 @@
     <v-navigation-drawer
       v-model="drawer"
       right
-      absolute
       temporary
       :mini-variant="miniVariant"
       :clipped="clipped"
@@ -31,9 +30,9 @@
     <v-app-bar :clipped-left="clipped" fixed app color="#fed82f" class="justify-space-between">
       <v-container fluid>
         <v-row align="center">
-          <v-col cols="12">
+          <v-col cols="12" sm="10" lg="6" class="mx-auto">
             <v-row align="center">
-              <v-col cols="6">
+              <v-col cols="6" sm="8" lg="7" class="pl-0">
                 <nuxt-link to="/" class="d-flex align-center main-title">
                   <img
                     src="../assets/img/dopomoga-logo-mini.png"
@@ -45,13 +44,13 @@
                   <h1 class="text-subtitle-1 font-weight-bold">ДОПОМОГА</h1>
                 </nuxt-link>
               </v-col>
-              <v-col cols="4">
+              <v-col cols="4" sm="3" lg="4">
                 <LangSwitcher
                   :locales="availableLocales"
                   :defaultLocale="defaultLang"
                 />
               </v-col>
-              <v-col cols="2">
+              <v-col cols="1" class="pr-0">
                 <v-app-bar-nav-icon @click.stop="switchDrawer" />
               </v-col>
             </v-row>
