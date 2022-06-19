@@ -1,47 +1,47 @@
 <template>
-  <v-container fluid>
-    <v-row class="justify-center mt-1">
-      <v-col cols="12" sm="10" lg="8" class="d-flex">
-        <nuxt-link to="/" style="text-decoration: none">
-          <v-icon large color="#0461ab">mdi-arrow-left</v-icon>
-        </nuxt-link>
-        <v-icon color="#fed82f" x-large class="mx-auto" style="transform: translateX(-20px);">mdi-account-cash</v-icon>
-      </v-col>
+    <v-container fluid>
+        <v-row class="justify-center mt-1">
+            <v-col cols="12" sm="10" lg="8" class="d-flex">
+                <nuxt-link to="/" style="text-decoration: none">
+                <v-icon large color="#0461ab">mdi-arrow-left</v-icon>
+                </nuxt-link>
+                <v-icon color="#fed82f" x-large class="mx-auto" style="transform: translateX(-20px);">mdi-account-cash</v-icon>
+            </v-col>
 
-      <v-col cols="12" class="text-center">
-        <h1>Get financial Assistance</h1>
-      </v-col>
-      <v-col cols="12" sm="10" lg="8" class="mx-auto">
-        <p class="">
-          Наразі, внаслідок агресивного і повномасштабного вторгнення Росії в Україну, склалася вкрай складна ситуація у нашій державі і майже 10 млн. наших співвітчизників є внутрішньо переміщеними особами і знаходяться в скрутному становищі.
-          На порталі ДОПОМОГА, Ви маєте змогу знайти необхідну інформацію про янаявні програми підтримки від держави Україна а також від міжнародних партнерів.
-          З наявною грошовою допомогою для ВПО можно ознаймитись за цими посиланнями:
-  Контакти організації:
-  © ГО СОБОРНІСТЬ 2020
-    sobornist.sobornist@gmail.com
-  Юрист - +38 095 898 66 43
-        </p>
-        <v-expansion-panels>
-          <v-expansion-panel
-            v-for="(assistanceItem,i) in financialAssistanceSources"
-            :key="i"
-          >
-            <v-expansion-panel-header>
-              {{ assistanceItem.assistanceSource }}
-            </v-expansion-panel-header>
-            <v-expansion-panel-content>
-              <v-list-item
-                v-for="(link, i) in assistanceItem.assistanceLinks"
-                :key="i"
-              >
-                <a :href="link" target="_blank" rel="noopener noreferrer">{{ link }}</a>    
-              </v-list-item>
-            </v-expansion-panel-content>
-          </v-expansion-panel>
-        </v-expansion-panels>
-      </v-col>
-    </v-row>
-  </v-container>
+            <v-col cols="12" class="text-center">
+                <h1>Get financial Assistance</h1>
+            </v-col>
+            <v-col cols="12" sm="10" lg="8" class="mx-auto">
+                <p class="">
+                Наразі, внаслідок агресивного і повномасштабного вторгнення Росії в Україну, склалася вкрай складна ситуація у нашій державі і майже 10 млн. наших співвітчизників є внутрішньо переміщеними особами і знаходяться в скрутному становищі.
+                На порталі ДОПОМОГА, Ви маєте змогу знайти необхідну інформацію про янаявні програми підтримки від держави Україна а також від міжнародних партнерів.
+                З наявною грошовою допомогою для ВПО можно ознаймитись за цими посиланнями:
+        Контакти організації:
+        © ГО СОБОРНІСТЬ 2020
+            sobornist.sobornist@gmail.com
+        Юрист - +38 095 898 66 43
+                </p>
+                <v-expansion-panels>
+                <v-expansion-panel
+                    v-for="(assistanceItem,i) in financialAssistanceSources"
+                    :key="i"
+                >
+                    <v-expansion-panel-header>
+                    {{ assistanceItem.assistanceSource }}
+                    </v-expansion-panel-header>
+                    <v-expansion-panel-content>
+                    <v-list-item
+                        v-for="(link, i) in assistanceItem.assistanceLinks"
+                        :key="i"
+                    >
+                        <a :href="link" target="_blank" rel="noopener noreferrer">{{ link }}</a>    
+                    </v-list-item>
+                    </v-expansion-panel-content>
+                </v-expansion-panel>
+                </v-expansion-panels>
+            </v-col>
+        </v-row>
+    </v-container>
 </template>
 
 <script>
