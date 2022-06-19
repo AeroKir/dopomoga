@@ -3,7 +3,7 @@
         <v-row justify="center" align="center">
             <v-col cols="12" sm="10" lg="8">
                 <h1>{{ $t('pages.main.title') }}</h1>
-                <p>{{ $t('pages.main.heroParagraph', {siteName: 'Dopomoga'}) }}</p>
+                <p>{{ $t('pages.main.heroParagraph') }}</p>
                 <v-row>
                     <v-col cols="12" sm="12" lg="6">
                         <v-card color="rgba(0, 139, 248, 0.2)" class="mb-5" style="border: 1px solid #0462ab">

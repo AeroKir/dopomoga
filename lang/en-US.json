@@ -2,7 +2,7 @@
     "pages": {
         "main": {
             "title": "Main",
-            "heroParagraph": "{siteName} is an online platform for internally displaced persons (IDPs), which aims to provide the necessary information support to internally displaced persons in Ukraine.",
+            "heroParagraph": "DOPOMOGA is an online portal for internally displaced persons (IDPs), which provides the necessary information support to internally displaced persons. The portal provides an opportunity to get up-to-date information, answers to the most common questions, as well as free legal aid.",
             "actionCards": {
                 "getMigrantReference": "Get migrant reference",
                 "getFinancialAssistance": "Get financial assistance",
