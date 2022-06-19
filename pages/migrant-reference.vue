@@ -12,7 +12,7 @@
                 <h1>Get migrant reference</h1>
             </v-col>
             <v-col cols="12" sm="10" lg="8" class="mx-auto">
-                <p class="">
+                <p>
                 
                 </p>
             </v-col>
@@ -21,7 +21,7 @@
 </template>
 
 <script>
-  export default {
-    name: 'MigrantReferencePage',
-  }
+    export default {
+        name: 'MigrantReferencePage',
+    }
 </script>
