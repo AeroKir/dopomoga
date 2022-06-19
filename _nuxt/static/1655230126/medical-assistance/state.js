@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"\u002Fdopomoga\u002F_nuxt\u002Fstatic\u002F1655230126",layout:"default",error:a,serverRendered:true,routePath:"\u002Fmedical-assistance",config:{_app:{basePath:"\u002Fdopomoga\u002F",assetsPath:"\u002Fdopomoga\u002F_nuxt\u002F",cdnURL:a},content:{dbHash:"8794bf43"}}}}(null));
