@@ -67,15 +67,25 @@
                         </v-card>
                     </v-col>
                 </v-row>
+                
+                <v-row>
+                    <v-col cols="12" sm="12" lg="6">
+                        <SocialLinks />
+                    </v-col>
+                </v-row>
             </v-col>
         </v-row>
     </v-container>
 </template>
 
 <script>
-export default {
-  name: 'IndexPage',
-}
+    import SocialLinks from '../components/SocialLinks';
+    export default {
+        name: 'IndexPage',
+        components: {
+            SocialLinks,
+        },
+    }
 </script>
 
 <style lang="scss" scoped>
