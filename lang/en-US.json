@@ -19,5 +19,10 @@
         "legalAssistance": "Legal assistance",
         "news": "News",
         "stopFake": "Stop fake"
+    },
+    "socialLinks": {
+        "blockTitle": "Join us:",
+        "telegram": "Our Telegram channel",
+        "facebook": "Our group is on Facebook"
     }
 }

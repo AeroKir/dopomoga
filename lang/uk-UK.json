@@ -19,5 +19,10 @@
         "legalAssistance": "Юридична допомога",
         "news": "Новини",
         "stopFake": "Стоп фейк"
+    },
+    "socialLinks": {
+        "blockTitle": "Доєднуйтесь до нас:",
+        "telegram": "Наш Телеграм канал",
+        "facebook": "Наша група у Фейсбук"
     }
 }
