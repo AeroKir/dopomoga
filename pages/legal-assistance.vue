@@ -15,13 +15,23 @@
                 <p>
                     Юрист - <a href="tel:+380958986643">+38 095 898 66 43</a>
                 </p>
+                <v-row>
+                    <v-col cols="12" sm="12" lg="12">
+                        <SocialLinks class="mt-3" />
+                    </v-col>
+                </v-row>
             </v-col>
         </v-row>
     </v-container>
 </template>
 
 <script>
+    import SocialLinks from '../components/SocialLinks';
+    
     export default {
         name: 'LegalAssistancePage',
+        components: {
+            SocialLinks,
+        },
     }
 </script>

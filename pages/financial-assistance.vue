@@ -35,34 +35,45 @@
                     </v-expansion-panel-content>
                 </v-expansion-panel>
                 </v-expansion-panels>
+
+                <v-row>
+                    <v-col cols="12" sm="12" lg="12">
+                        <SocialLinks class="mt-3" />
+                    </v-col>
+                </v-row>
             </v-col>
         </v-row>
     </v-container>
 </template>
 
 <script>
-  export default {
-    name: 'FinancialAssistancePage',
-    data() {
-      return {
-        financialAssistanceSources: [
-          {
-            assistanceSource: 'Допомога від держави',
-            assistanceLinks: [
-              'https://minre.gov.ua/news/vpo-mozhut-otrymaty-mizhnarodnu-groshovu-dopomogu-yaki-programy-dostupni'
+    import SocialLinks from '../components/SocialLinks';
+    
+    export default {
+        name: 'FinancialAssistancePage',
+        components: {
+            SocialLinks,
+        },
+        data() {
+        return {
+            financialAssistanceSources: [
+            {
+                assistanceSource: 'Допомога від держави',
+                assistanceLinks: [
+                'https://minre.gov.ua/news/vpo-mozhut-otrymaty-mizhnarodnu-groshovu-dopomogu-yaki-programy-dostupni'
+                ],
+            },
+            {
+                assistanceSource: 'Допомога від партнерів',
+                assistanceLinks: [
+                'https://www.unhcr.org/ua/43231-unhcr-is-launching-a-cash-assistance-programme-for-idps-ua.html',
+                'https://visitukraine.today/uk/blog/440/finansova-dopomoga-vnutrisnyo-peremishhenim-osobam-vid-norvezkoi-radi-yak-otrimati-2200-griven',
+                'https://fakty.com.ua/ua/ukraine/suspilstvo/20220601-finansova-dopomoga-vpo-vid-nrc-hto-ta-yak-zmozhe-otrymaty/',
+                'https://www.prostir.ua/?news=vpo-mozhut-otrymaty-mizhnarodnu-hroshovu-dopomohu-yaki-prohramy-dostupni'
+                ],
+            },
             ],
-          },
-          {
-            assistanceSource: 'Допомога від партнерів',
-            assistanceLinks: [
-              'https://www.unhcr.org/ua/43231-unhcr-is-launching-a-cash-assistance-programme-for-idps-ua.html',
-              'https://visitukraine.today/uk/blog/440/finansova-dopomoga-vnutrisnyo-peremishhenim-osobam-vid-norvezkoi-radi-yak-otrimati-2200-griven',
-              'https://fakty.com.ua/ua/ukraine/suspilstvo/20220601-finansova-dopomoga-vpo-vid-nrc-hto-ta-yak-zmozhe-otrymaty/',
-              'https://www.prostir.ua/?news=vpo-mozhut-otrymaty-mizhnarodnu-hroshovu-dopomohu-yaki-prohramy-dostupni'
-            ],
-          },
-        ],
-      };
-    },
-  }
+        };
+        },
+    }
 </script>

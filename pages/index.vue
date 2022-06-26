@@ -80,6 +80,7 @@
 
 <script>
     import SocialLinks from '../components/SocialLinks';
+    
     export default {
         name: 'IndexPage',
         components: {

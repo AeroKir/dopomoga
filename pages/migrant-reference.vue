@@ -15,13 +15,23 @@
                 <p>
                 
                 </p>
+                <v-row>
+                    <v-col cols="12" sm="12" lg="12">
+                        <SocialLinks class="mt-3" />
+                    </v-col>
+                </v-row>
             </v-col>
         </v-row>
     </v-container>
 </template>
 
 <script>
+    import SocialLinks from '../components/SocialLinks';
+
     export default {
         name: 'MigrantReferencePage',
+        components: {
+            SocialLinks,
+        },
     }
 </script>
