@@ -7,7 +7,7 @@
                 <v-row>
                     <v-col cols="12" sm="12" lg="6">
                         <v-card color="rgba(0, 139, 248, 0.2)" class="mb-5" style="border: 1px solid #0462ab">
-                            <nuxt-link to="/migrant-reference" class="card-link">
+                            <nuxt-link :to="localePath('/migrant-reference')" class="card-link">
                                 <v-card-title class="d-flex flex-column">
                                     <v-icon
                                         x-large
@@ -21,7 +21,7 @@
                             </nuxt-link>
                         </v-card>
                         <v-card color="rgba(0, 139, 248, 0.2)" style="border: 1px solid #0462ab">
-                            <nuxt-link to="/financial-assistance" class="card-link">
+                            <nuxt-link :to="localePath('/financial-assistance')" class="card-link">
                                 <v-card-title class="d-flex flex-column">
                                     <v-icon
                                         x-large
@@ -37,7 +37,7 @@
                     </v-col>
                     <v-col cols="12" sm="12" lg="6">
                         <v-card color="rgba(0, 139, 248, 0.2)" class="mb-5" style="border: 1px solid #0462ab">
-                            <nuxt-link to="/medical-assistance" class="card-link">
+                            <nuxt-link :to="localePath('/medical-assistance')" class="card-link">
                                 <v-card-title class="d-flex flex-column">
                                     <v-icon
                                         x-large
@@ -52,7 +52,7 @@
                             
                         </v-card>
                         <v-card color="rgba(0, 139, 248, 0.2)" style="border: 1px solid #0462ab">
-                            <nuxt-link to="/legal-assistance" class="card-link">
+                            <nuxt-link :to="localePath('/legal-assistance')" class="card-link">
                                 <v-card-title class="d-flex flex-column">
                                     <v-icon
                                         x-large

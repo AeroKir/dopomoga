@@ -2,8 +2,8 @@
   <v-container fluid>
         <v-row class="justify-center mt-1">
             <v-col cols="12" sm="10" lg="8" class="d-flex">
-                <nuxt-link to="/" style="text-decoration: none">
-                <v-icon large color="#0461ab">mdi-arrow-left</v-icon>
+                <nuxt-link :to="localePath('/')" style="text-decoration: none">
+                    <v-icon large color="#0461ab">mdi-arrow-left</v-icon>
                 </nuxt-link>
                 <v-icon color="#fed82f" x-large class="mx-auto" style="transform: translateX(-20px);">mdi-card-account-details</v-icon>
             </v-col>
