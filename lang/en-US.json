@@ -9,6 +9,24 @@
                 "getMedicalAssistance": "Get medical assistance",
                 "getLegalAssistance": "Get legal assistance"
             }
+        },
+        "migrantReference": {
+            "title": "Migrant reference"
+        },
+        "financialAssistance": {
+            "title": "Financial assistance"
+        },
+        "medicalAssistance": {
+            "title": "Medical assistance"
+        },
+        "legalAssistance": {
+            "title": "Legal assistance"
+        },
+        "news": {
+            "title": "News"
+        },
+        "stopFake": {
+            "title": "Stop fake"
         }
     },
     "asideMenu": {

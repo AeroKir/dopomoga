@@ -3,13 +3,13 @@
         <v-row class="justify-center mt-1">
             <v-col cols="12" sm="10" lg="8" class="d-flex">
                 <nuxt-link to="/" style="text-decoration: none">
-                <v-icon large color="#0461ab">mdi-arrow-left</v-icon>
+                    <v-icon large color="#0461ab">mdi-arrow-left</v-icon>
                 </nuxt-link>
                 <v-icon color="#fed82f" x-large class="mx-auto" style="transform: translateX(-20px);">mdi-close-octagon</v-icon>
             </v-col>
 
             <v-col cols="12" class="text-center">
-                <h1>Stop fake</h1>
+                <h1>{{ $t('pages.stopFake.title') }}</h1>
             </v-col>
             <v-col cols="12" sm="10" lg="8" class="mx-auto">
                 <p>

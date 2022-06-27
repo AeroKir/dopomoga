@@ -9,7 +9,7 @@
             </v-col>
 
             <v-col cols="12" class="text-center">
-                <h1>News page</h1>
+                <h1>{{ $t('pages.news.title') }}</h1>
             </v-col>
             <v-col cols="12" sm="10" lg="8" class="mx-auto">
                 <p>

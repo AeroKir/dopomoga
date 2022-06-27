@@ -9,6 +9,24 @@
                 "getMedicalAssistance": "Отримати медичну допомогу",
                 "getLegalAssistance": "Безкоштовна правова допомога"
             }
+        },
+        "migrantReference": {
+            "title": "Довідка переселенця"
+        },
+        "financialAssistance": {
+            "title": "Фінансова допомога"
+        },
+        "medicalAssistance": {
+            "title": "Медична допомога"
+        },
+        "legalAssistance": {
+            "title": "Юридична допомога"
+        },
+        "news": {
+            "title": "Новини"
+        },
+        "stopFake": {
+            "title": "Стоп фейк"
         }
     },
     "asideMenu": {
