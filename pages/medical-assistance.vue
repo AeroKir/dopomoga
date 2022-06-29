@@ -12,10 +12,29 @@
                 <h1>{{ $t('pages.medicalAssistance.title') }}</h1>
             </v-col>
             <v-col cols="12" sm="10" lg="8" class="mx-auto">
-                <p>
-                    
-                </p>
-                <v-row>
+                <section class="mb-7">
+                    <h2>{{ $t('pages.medicalAssistance.infoParagraph.subtitle1') }}</h2>
+                    <p>{{ $t('pages.medicalAssistance.infoParagraph.infoBlock1') }}</p>
+
+                    <h2>{{ $t('pages.medicalAssistance.infoParagraph.subtitle2') }}</h2>
+                    <p>{{ $t('pages.medicalAssistance.infoParagraph.infoBlock2') }}</p>
+
+                    <h2>{{ $t('pages.medicalAssistance.infoParagraph.subtitle3') }}</h2>
+                    <p>{{ $t('pages.medicalAssistance.infoParagraph.infoBlock3') }}</p>
+                    <ul class="mb-4">
+                        <li>{{ $t('pages.medicalAssistance.infoParagraph.listItem1') }}</li>
+                        <li>{{ $t('pages.medicalAssistance.infoParagraph.listItem2') }}</li>
+                        <li>{{ $t('pages.medicalAssistance.infoParagraph.listItem3') }}</li>
+                    </ul>
+
+                    <h2>{{ $t('pages.medicalAssistance.infoParagraph.subtitle4') }}</h2>
+                    <p>{{ $t('pages.medicalAssistance.infoParagraph.infoBlock4') }}</p>
+
+                    <h2>{{ $t('pages.medicalAssistance.infoParagraph.subtitle5') }}</h2>
+                    <p>{{ $t('pages.medicalAssistance.infoParagraph.infoBlock5') }}</p>
+                </section>
+                
+                <v-row class="mb-5">
                     <v-col cols="12" sm="12" lg="12">
                         <SocialLinks class="mt-3" />
                     </v-col>

@@ -17,7 +17,22 @@
             "title": "Financial assistance"
         },
         "medicalAssistance": {
-            "title": "Medical assistance"
+            "title": "Medical assistance",
+            "infoParagraph": {
+                "subtitle1": "Information for those who have moved or been forced to change their place of residence.",
+                "subtitle2": "Where to go?",
+                "subtitle3": "What medical services are available?",
+                "subtitle4": "Do I need to have a family doctor in a new place?",
+                "subtitle5": "Can you count on free and affordable medicine?",
+                "infoBlock1": "The Ministry of Health of Ukraine regulated the provision of primary medical care to internally displaced persons under martial law by a separate order. It applies to those who have moved or been forced to change their place of residence.",
+                "infoBlock2": "An internally displaced person may be admitted to any healthcare facility of his or her choice. The main thing is that the institution has the opportunity to provide appropriate treatment. The document clearly states: \"All medical service providers are obliged to provide medical services to all persons who contact them at their location.\"",
+                "infoBlock3": "The outpatient clinic or other medical facility to which you have applied must:",
+                "infoBlock4": "In the event of an emergency or routine vaccination, the providers of medical services sought by displaced persons do not have the right to insist on the need to submit a declaration of choice of doctor.",
+                "infoBlock5": "The program \"Affordable Medicines\" continues to work for IDPs in pharmacies. All prescription drugs for people who need constant treatment can be obtained at any pharmacy for free. If they exceed the price set by the state - for a small surcharge. Their redistribution by region is regulated by the Ministry of Health.",
+                "listItem1": "keep records of displaced persons who apply;",
+                "listItem2": "provide primary and medical care to patients in an emergency;",
+                "listItem3": "to carry out vaccination according to the calendar of preventive vaccinations."
+            }
         },
         "legalAssistance": {
             "title": "Legal assistance"
