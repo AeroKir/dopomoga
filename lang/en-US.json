@@ -11,7 +11,16 @@
             }
         },
         "migrantReference": {
-            "title": "Migrant reference"
+            "title": "How to get the status (certificate) of an IDP",
+            "infoParagraph": {
+                "infoBlock1": "There are now several ways to obtain status and a corresponding certificate of internal movement:",
+                "infoBlock2": "In order to obtain the status of an IDP, you must provide your passport and personal identification number. Confirmation of the tax number can also be a corresponding stamp in the passport-book, or the information sewn into the ID-passport (if it is contained in the chip, your tax number will be indicated on the back of the document). If the status is obtained by a child, a birth certificate will be useful.",
+                "infoBlock3": "In order to obtain IDP status and the corresponding certificate, it is also necessary to write an application, indicate the last place of residence/registration and the actual place of residence at the time of submitting the application, and indicate the bank account (for social benefits or support) in IBAN format.",
+                "listItem1": "personally apply to the nearest administrative service center (TsNAP);",
+                "listItem2": "apply to the executive body of the local council. If, for example, we talk about Kyiv, then it is KMDA;",
+                "listItem3": "through the department of social protection of the population of the local state administration;",
+                "listItem4": "using the Action application. For this, you need to have biometric documents: either an ID card or a foreign passport."
+            }
         },
         "financialAssistance": {
             "title": "Financial assistance"

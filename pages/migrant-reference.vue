@@ -12,9 +12,20 @@
                 <h1>{{ $t('pages.migrantReference.title') }}</h1>
             </v-col>
             <v-col cols="12" sm="10" lg="8" class="mx-auto">
-                <p>
-                
-                </p>
+                <section class="mb-7">
+                    <p>{{ $t('pages.migrantReference.infoParagraph.infoBlock1') }}</p>
+                    <ul class="mb-4">
+                        <li>{{ $t('pages.migrantReference.infoParagraph.listItem1') }}</li>
+                        <li>{{ $t('pages.migrantReference.infoParagraph.listItem2') }}</li>
+                        <li>{{ $t('pages.migrantReference.infoParagraph.listItem3') }}</li>
+                        <li>{{ $t('pages.migrantReference.infoParagraph.listItem4') }}</li>
+                    </ul>
+
+                    <p>{{ $t('pages.migrantReference.infoParagraph.infoBlock2') }}</p>
+
+                    <p>{{ $t('pages.migrantReference.infoParagraph.infoBlock3') }}</p>
+                </section>
+
                 <v-row>
                     <v-col cols="12" sm="12" lg="12">
                         <SocialLinks class="mt-3" />
