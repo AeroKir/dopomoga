@@ -35,7 +35,11 @@
             }
         },
         "legalAssistance": {
-            "title": "Legal assistance"
+            "title": "Legal assistance",
+            "infoParagraph": {
+                "infoBlock1": "The DOPOMOGA platform will provide an opportunity to receive free initial legal assistance, which can include both providing legal information and providing consultations and clarifications on legal issues of IDPs.",
+                "subtitle1": "For legal assistance, call:"
+            }
         },
         "news": {
             "title": "News"
