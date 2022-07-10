@@ -23,7 +23,10 @@
             }
         },
         "financialAssistance": {
-            "title": "Financial assistance"
+            "title": "Financial assistance",
+            "infoParagraph": {
+                "infoBlock1": "On the DOPOMOGA portal, you can find the necessary information about the available support programs from the state of Ukraine as well as from international partners. You can find out about the available financial aid for IDPs at the following links:"
+            }
         },
         "medicalAssistance": {
             "title": "Medical assistance",

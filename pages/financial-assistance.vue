@@ -12,29 +12,28 @@
                 <h1>{{ $t('pages.financialAssistance.title') }}</h1>
             </v-col>
             <v-col cols="12" sm="10" lg="8" class="mx-auto">
-                <p>
-                Наразі, внаслідок агресивного і повномасштабного вторгнення Росії в Україну, склалася вкрай складна ситуація у нашій державі і майже 10 млн. наших співвітчизників є внутрішньо переміщеними особами і знаходяться в скрутному становищі.
-                На порталі ДОПОМОГА, Ви маєте змогу знайти необхідну інформацію про янаявні програми підтримки від держави Україна а також від міжнародних партнерів.
-                З наявною грошовою допомогою для ВПО можно ознаймитись за цими посиланнями:
-                </p>
-                <v-expansion-panels>
-                <v-expansion-panel
-                    v-for="(assistanceItem,i) in financialAssistanceSources"
-                    :key="i"
-                >
-                    <v-expansion-panel-header>
-                    {{ assistanceItem.assistanceSource }}
-                    </v-expansion-panel-header>
-                    <v-expansion-panel-content>
-                    <v-list-item
-                        v-for="(link, i) in assistanceItem.assistanceLinks"
+                <section class="mb-7">
+                    <p>{{ $t('pages.financialAssistance.infoParagraph.infoBlock1') }}</p>
+                
+                    <v-expansion-panels>
+                    <v-expansion-panel
+                        v-for="(assistanceItem,i) in financialAssistanceSources"
                         :key="i"
                     >
-                        <a :href="link" target="_blank" rel="noopener noreferrer">{{ link }}</a>    
-                    </v-list-item>
-                    </v-expansion-panel-content>
-                </v-expansion-panel>
-                </v-expansion-panels>
+                        <v-expansion-panel-header>
+                        {{ assistanceItem.assistanceSource }}
+                        </v-expansion-panel-header>
+                        <v-expansion-panel-content>
+                        <v-list-item
+                            v-for="(link, i) in assistanceItem.assistanceLinks"
+                            :key="i"
+                        >
+                            <a :href="link" target="_blank" rel="noopener noreferrer">{{ link }}</a>    
+                        </v-list-item>
+                        </v-expansion-panel-content>
+                    </v-expansion-panel>
+                    </v-expansion-panels>
+                </section>
 
                 <v-row>
                     <v-col cols="12" sm="12" lg="12">
