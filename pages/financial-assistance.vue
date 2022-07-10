@@ -33,6 +33,7 @@
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     style="color: #0461ab;"
+                                    class="mb-5"
                                 >
                                     {{ link.title }}
                                     <v-icon small color="#0461ab">mdi-open-in-new</v-icon>
