@@ -16,22 +16,30 @@
                     <p>{{ $t('pages.financialAssistance.infoParagraph.infoBlock1') }}</p>
                 
                     <v-expansion-panels>
-                    <v-expansion-panel
-                        v-for="(assistanceItem,i) in financialAssistanceSources"
-                        :key="i"
-                    >
-                        <v-expansion-panel-header>
-                        {{ assistanceItem.assistanceSource }}
-                        </v-expansion-panel-header>
-                        <v-expansion-panel-content>
-                        <v-list-item
-                            v-for="(link, i) in assistanceItem.assistanceLinks"
+                        <v-expansion-panel
+                            v-for="(assistanceItem,i) in financialAssistanceSources"
                             :key="i"
                         >
-                            <a :href="link" target="_blank" rel="noopener noreferrer">{{ link }}</a>    
-                        </v-list-item>
-                        </v-expansion-panel-content>
-                    </v-expansion-panel>
+                            <v-expansion-panel-header class="subtitle-1 font-weight-bold">
+                                {{ assistanceItem.assistanceSource }}
+                            </v-expansion-panel-header>
+                            <v-expansion-panel-content>
+                            <v-list-item
+                                v-for="(link, i) in assistanceItem.assistanceLinks"
+                                :key="i"
+                            >
+                                <a
+                                    :href="link.url"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    style="color: #0461ab;"
+                                >
+                                    {{ link.title }}
+                                    <v-icon small color="#0461ab">mdi-open-in-new</v-icon>
+                                </a>    
+                            </v-list-item>
+                            </v-expansion-panel-content>
+                        </v-expansion-panel>
                     </v-expansion-panels>
                 </section>
 
@@ -57,18 +65,37 @@
         return {
             financialAssistanceSources: [
             {
-                assistanceSource: 'Допомога від держави',
+                assistanceSource: 'Допомога від міжнародних організацій',
                 assistanceLinks: [
-                'https://minre.gov.ua/news/vpo-mozhut-otrymaty-mizhnarodnu-groshovu-dopomogu-yaki-programy-dostupni'
+                    {
+                        title: 'Платформа єДопомога',
+                        url: 'https://aid.edopomoga.gov.ua/',
+                    },
                 ],
             },
             {
                 assistanceSource: 'Допомога від партнерів',
                 assistanceLinks: [
-                'https://www.unhcr.org/ua/43231-unhcr-is-launching-a-cash-assistance-programme-for-idps-ua.html',
-                'https://visitukraine.today/uk/blog/440/finansova-dopomoga-vnutrisnyo-peremishhenim-osobam-vid-norvezkoi-radi-yak-otrimati-2200-griven',
-                'https://fakty.com.ua/ua/ukraine/suspilstvo/20220601-finansova-dopomoga-vpo-vid-nrc-hto-ta-yak-zmozhe-otrymaty/',
-                'https://www.prostir.ua/?news=vpo-mozhut-otrymaty-mizhnarodnu-hroshovu-dopomohu-yaki-prohramy-dostupni'
+                    {
+                        title: 'Програма грошової допомоги від ЮНІСЕФ Спільно',
+                        url: 'https://register.unicef.org/',
+                    },
+                    {
+                        title: 'Допомога від агентства ООН у справах біженців',
+                        url: 'https://www.unhcr.org/ua/43231-unhcr-is-launching-a-cash-assistance-programme-for-idps-ua.html',
+                    },
+                    {
+                        title: 'Фінансова допомога внутрішньо переміщеним особам від Норвезької ради',
+                        url: 'https://visitukraine.today/uk/blog/440/finansova-dopomoga-vnutrisnyo-peremishhenim-osobam-vid-norvezkoi-radi-yak-otrimati-2200-griven',
+                    },
+                    {
+                        title: 'Допомога від Червоного Хреста',
+                        url: 'https://blogs.icrc.org/ua/2022/04/22/finansova-dopomoga-2022/',
+                    },
+                    {
+                        title: 'Допомога від Міжнародної організації з міграції (МОМ)',
+                        url: 'https://www.iom.int/news/iom-launches-cash-assistance-programme-ukraine',
+                    },
                 ],
             },
             ],
