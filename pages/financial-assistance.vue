@@ -102,5 +102,10 @@
             ],
         };
         },
+        head() {
+            return {
+                title: this.$t('pages.financialAssistance.title'),
+            }
+        },
     }
 </script>

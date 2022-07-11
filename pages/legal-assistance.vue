@@ -39,5 +39,10 @@
         components: {
             SocialLinks,
         },
+        head() {
+            return {
+                title: this.$t('pages.legalAssistance.title'),
+            }
+        },
     }
 </script>

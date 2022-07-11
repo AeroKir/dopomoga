@@ -36,7 +36,7 @@
                 
                 <v-row class="mb-5">
                     <v-col cols="12" sm="12" lg="12">
-                        <SocialLinks class="mt-3" />
+                        <SocialLinks class="mt-3 mb-10" />
                     </v-col>
                 </v-row>
             </v-col>
@@ -51,6 +51,11 @@
         name: 'MedicalAssistancePage',
         components: {
             SocialLinks,
+        },
+        head() {
+            return {
+                title: this.$t('pages.medicalAssistance.title'),
+            }
         },
     }
 </script>

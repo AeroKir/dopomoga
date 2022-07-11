@@ -23,5 +23,10 @@
 <script>
     export default {
         name: 'NewsPage',
+        head() {
+            return {
+                title: this.$t('pages.news.title'),
+            }
+        },
     }
 </script>

@@ -23,5 +23,10 @@
 <script>
     export default {
         name: 'StopFakePage',
+        head() {
+            return {
+                title: this.$t('pages.stopFake.title'),
+            }
+        },
     }
 </script>
