@@ -66,7 +66,7 @@
         return {
             financialAssistanceSources: [
             {
-                assistanceSource: 'Допомога від міжнародних організацій',
+                assistanceSource: 'Державна платформа єДопомога',
                 assistanceLinks: [
                     {
                         title: 'Платформа єДопомога',
@@ -75,7 +75,7 @@
                 ],
             },
             {
-                assistanceSource: 'Допомога від партнерів',
+                assistanceSource: 'Допомога від міжнародних організацій',
                 assistanceLinks: [
                     {
                         title: 'Програма грошової допомоги від ЮНІСЕФ Спільно',
