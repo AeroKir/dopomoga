@@ -8,7 +8,7 @@
                     <v-col cols="12" sm="12" lg="6">
                         <v-card color="rgba(0, 139, 248, 0.2)" class="mb-5" style="border: 1px solid #0462ab">
                             <nuxt-link :to="localePath('/migrant-reference')" class="card-link">
-                                <v-card-title class="d-flex flex-column">
+                                <v-card-title class="d-flex flex-column" :class="{'small-text': isXs}">
                                     <v-icon
                                         x-large
                                         left
@@ -22,7 +22,7 @@
                         </v-card>
                         <v-card color="rgba(0, 139, 248, 0.2)" style="border: 1px solid #0462ab">
                             <nuxt-link :to="localePath('/financial-assistance')" class="card-link">
-                                <v-card-title class="d-flex flex-column">
+                                <v-card-title class="d-flex flex-column" :class="{'small-text': isXs}">
                                     <v-icon
                                         x-large
                                         left
@@ -38,7 +38,7 @@
                     <v-col cols="12" sm="12" lg="6">
                         <v-card color="rgba(0, 139, 248, 0.2)" class="mb-5" style="border: 1px solid #0462ab">
                             <nuxt-link :to="localePath('/medical-assistance')" class="card-link">
-                                <v-card-title class="d-flex flex-column">
+                                <v-card-title class="d-flex flex-column" :class="{'small-text': isXs}">
                                     <v-icon
                                         x-large
                                         left
@@ -53,7 +53,7 @@
                         </v-card>
                         <v-card color="rgba(0, 139, 248, 0.2)" style="border: 1px solid #0462ab">
                             <nuxt-link :to="localePath('/legal-assistance')" class="card-link">
-                                <v-card-title class="d-flex flex-column">
+                                <v-card-title class="d-flex flex-column" :class="{'small-text': isXs}">
                                     <v-icon
                                         x-large
                                         left
@@ -91,6 +91,11 @@
                 title: this.$t('pages.main.title'),
             }
         },
+        computed: {
+            isXs() {
+                return this.$vuetify.breakpoint.xs;
+            },
+        },
     }
 </script>
 
@@ -98,5 +103,8 @@
     .card-link {
         color:#0461ab;
         text-decoration: none;
+    }
+    .small-text {
+        font-size: 18px;
     }
 </style>
