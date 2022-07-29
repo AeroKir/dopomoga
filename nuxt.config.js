@@ -18,7 +18,7 @@ export default {
 
   target: 'static',
   router: {
-    base: '/dopomoga/'
+    base: '/'
   },
   generate: {
     fallback: "404.html"
