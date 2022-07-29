@@ -69,7 +69,7 @@
                     <v-col cols="12" sm="10" lg="6" class="mx-auto">
                         <v-row align="center">
                             <v-col cols="12" sm="6" lg="7" class="pl-0">
-                                <span>&copy; ГО СОБОРНІСТЬ {{ new Date().getFullYear() }}</span>
+                                <small>&copy; {{ new Date().getFullYear() }} <span class="ml-2">ГО СОБОРНІСТЬ</span></small>
                             </v-col>
                             <v-col cols="12" sm="3" lg="4" class="pl-0">
                                 <a
