@@ -86,9 +86,44 @@
         components: {
             SocialLinks,
         },
+        data() {
+            return {
+                previewImage: '/dopomoga-main-screen-min.png',
+            };
+        },
         head() {
             return {
                 title: this.$t('pages.main.title'),
+                meta: [
+                    { hid: 'og:site_name', property: 'og:site_name', content: 'Dopomoga' },
+                    { hid: 'og:type', property: 'og:type', content: 'website' },
+                    {
+                        hid: 'og:url',
+                        property: 'og:url',
+                        content: 'http://dopomoga-idp.org.ua/'
+                    },
+                    {
+                        hid: 'og:title',
+                        property: 'og:title',
+                        content: 'ДОПОМОГА - головна'
+                    },
+                    {
+                        hid: 'og:description',
+                        property: 'og:description',
+                        content:
+                        'ДОПОМОГА - це онлайн портал для внутрішньо переміщених особ (ВПО), де надається необхідна інформаційна підтримка внутрішньо переміщеним особам.'
+                    },
+                    {
+                        hid: 'og:image',
+                        property: 'og:image',
+                        content: `/${this.previewImage}`
+                    },
+                    {
+                        hid: 'og:image:alt',
+                        property: 'og:image:alt',
+                        content: 'Сайт Допомога'
+                    }
+                ]
             }
         },
         computed: {
