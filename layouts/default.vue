@@ -51,7 +51,7 @@
                                 />
                             </v-col>
                             <v-col cols="1" class="pr-0">
-                                <v-app-bar-nav-icon @click.stop="switchDrawer" />
+                                <v-app-bar-nav-icon aria-label="Menu button" @click.stop="switchDrawer" />
                             </v-col>
                         </v-row>
                     </v-col>
