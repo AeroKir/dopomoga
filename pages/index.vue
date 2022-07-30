@@ -116,7 +116,7 @@
                     {
                         hid: 'og:image',
                         property: 'og:image',
-                        content: `/${this.previewImage}`
+                        content: this.previewImage
                     },
                     {
                         hid: 'og:image:alt',
