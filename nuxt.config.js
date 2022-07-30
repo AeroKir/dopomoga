@@ -9,7 +9,11 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { 
+        hid: 'description',
+        name: 'description',
+        content: 'ДОПОМОГА - це онлайн портал для внутрішньо переміщених особ (ВПО), де надається необхідна інформаційна підтримка внутрішньо переміщеним особам.',
+      },
       { name: 'format-detection', content: 'telephone=no' },
       { name: 'theme-color', content: '#fed82f' },
     ],
