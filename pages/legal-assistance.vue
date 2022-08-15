@@ -19,6 +19,24 @@
                         <v-icon x-large color="#0461ab" class="mr-2">mdi-cellphone-information</v-icon>
                         <a href="tel:+380958986643" style="color: #0461ab;">+38 095 898 66 43</a>
                     </h2>
+
+                    <v-divider class="mt-5 mb-10"></v-divider>
+
+                    <h2 class="mb-5 mt-5 text-center">{{ $t('pages.legalAssistance.hotlines.subtitle1') }}</h2>
+                    <h2 class="d-flex justify-center align-center font-weight-bold text-center mb-2">
+                        <v-icon x-large color="#0461ab" class="mr-2">mdi-cellphone-information</v-icon>
+                        <a href="tel:1545" style="color: #0461ab;">1545</a>
+                    </h2>
+                    <p class="text-center font-weight-bold mb-0">{{ $t('pages.legalAssistance.hotlines.infoBlock1') }}</p>
+                    <p class="text-center">{{ $t('pages.legalAssistance.hotlines.infoBlock2') }}</p>
+
+                    <h2 class="mb-5 mt-5 text-center">{{ $t('pages.legalAssistance.hotlines.subtitle2') }}</h2>
+                    <h2 class="d-flex justify-center align-center font-weight-bold text-center mb-2">
+                        <v-icon x-large color="#0461ab" class="mr-2">mdi-cellphone-information</v-icon>
+                        <a href="tel:+38(044)2841915" style="color: #0461ab;">+38 (044) 284-19-15</a>
+                    </h2>
+                    <p class="text-center">{{ $t('pages.legalAssistance.hotlines.infoBlock3') }}</p>
+                    <p class="font-weight-bold">{{ $t('pages.legalAssistance.hotlines.infoBlock4') }} <a href="https://ukc.gov.ua/portal/" target="_blank" rel="noopener noreferrer">www.ukc.gov.ua</a></p>
                 </section>
                 
                 <v-row>

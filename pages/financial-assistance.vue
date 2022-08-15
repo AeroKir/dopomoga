@@ -12,7 +12,7 @@
                 <h1>{{ $t('pages.financialAssistance.title') }}</h1>
             </v-col>
             <v-col cols="12" sm="10" lg="8" class="mx-auto">
-                <section class="mb-7">
+                <section class="mb-10">
                     <p>{{ $t('pages.financialAssistance.infoParagraph.infoBlock1') }}</p>
                 
                     <v-expansion-panels>
@@ -42,6 +42,16 @@
                             </v-expansion-panel-content>
                         </v-expansion-panel>
                     </v-expansion-panels>
+                </section>
+
+                <section class="mb-7">
+                    <h2 class="mb-5 mt-5 text-center">{{ $t('pages.financialAssistance.hotlines.subtitle1') }}</h2>
+                    <h2 class="d-flex justify-center align-center font-weight-bold text-center mb-2">
+                        <v-icon x-large color="#0461ab" class="mr-2">mdi-cellphone-information</v-icon>
+                        <a href="tel:0800331834" style="color: #0461ab;">0 800 33 18 34</a>
+                    </h2>
+                    <p class="text-center font-weight-bold mb-0">{{ $t('pages.financialAssistance.hotlines.infoBlock1') }}</p>
+                    <p class="text-center">{{ $t('pages.financialAssistance.hotlines.infoBlock2') }}</p>
                 </section>
 
                 <v-row>
