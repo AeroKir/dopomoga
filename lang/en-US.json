@@ -26,6 +26,11 @@
             "title": "Financial assistance",
             "infoParagraph": {
                 "infoBlock1": "On the DOPOMOGA portal, you can find the necessary information about the available support programs from the state of Ukraine as well as from international partners. You can find out about the available financial aid for IDPs at the following links:"
+            },
+            "hotlines": {
+                "subtitle1": "Hotline for advice on benefits for IDPs and assistance to the unemployed",
+                "infoBlock1": "The hotline is open every day from 8:00 a.m. to 10:00 p.m.",
+                "infoBlock2": "Calls from the numbers of Ukrainian mobile operators are free."
             }
         },
         "medicalAssistance": {
@@ -51,6 +56,14 @@
             "infoParagraph": {
                 "infoBlock1": "The DOPOMOGA platform will provide an opportunity to receive free initial legal assistance, which can include both providing legal information and providing consultations and clarifications on legal issues of IDPs.",
                 "subtitle1": "For legal assistance, call:"
+            },
+            "hotlines": {
+                "subtitle1": "Government hotline 1545",
+                "subtitle2": "For citizens of Ukraine who are abroad, the telephone number of the government hotline:",
+                "infoBlock1": "Hotline hours: 24/7.",
+                "infoBlock2": "Calls to the government \"hotline\" 1545 from the Ukrtelecom fixed line network, phones of mobile operators Kyivstar, Vodafone Ukraine, Lifecell are free for applicants.",
+                "infoBlock3": "Payment according to the tariffs of the corresponding operator",
+                "infoBlock4": "Citizens also have the opportunity to submit an electronic appeal to executive authorities through the website of the Government Contact Center"
             }
         },
         "news": {
