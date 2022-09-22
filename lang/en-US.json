@@ -2,7 +2,7 @@
     "pages": {
         "main": {
             "title": "Main",
-            "heroParagraph": "DOPOMOGA is an online portal for internally displaced persons (IDPs), which provides the necessary information support to internally displaced persons. The portal provides an opportunity to get up-to-date information, answers to the most common questions, as well as free legal aid.",
+            "heroParagraph": "DOPOMOGA is an online portal for internally displaced persons (IDPs). On the portal, you can get up-to-date information, answers to the most common questions, as well as free legal assistance.",
             "actionCards": {
                 "getMigrantReference": "Get IDP status",
                 "getFinancialAssistance": "Get financial assistance",
